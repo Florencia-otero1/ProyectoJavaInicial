@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Abrimos la página web www.demoblaze.com]]>
+    </line>
+    <line>
+      <![CDATA[Entramos a la categoría Phones]]>
+    </line>
+    <line>
+      <![CDATA[Hemos clickeado en la categoría Phones.]]>
+    </line>
+    <line>
+      <![CDATA[Hemos clickeado en el producto Samsung Galaxy S6.]]>
+    </line>
+    <line>
+      <![CDATA[Hemos clickeado en el botón 'Agregar al carrito'.]]>
+    </line>
+    <line>
+      <![CDATA[Se ha aceptado el alert de confirmación.]]>
+    </line>
+    <line>
+      <![CDATA[Hemos clickeado en el carrito para verificar los productos.]]>
+    </line>
+    <line>
+      <![CDATA[El contenido del carrito es visible.]]>
+    </line>
+    <line>
+      <![CDATA[Abrimos la página web www.demoblaze.com]]>
+    </line>
+    <line>
+      <![CDATA[Seleccionamos Log In]]>
+    </line>
+    <line>
+      <![CDATA[Hemos clickeado en la opción Log In.]]>
+    </line>
+    <line>
+      <![CDATA[Llenamos el campo de usuario con: florencia-otero1]]>
+    </line>
+    <line>
+      <![CDATA[Llenamos el campo de contraseña.]]>
+    </line>
+    <line>
+      <![CDATA[Hacemos clic en el botón de Log In.]]>
+    </line>
+    <line>
+      <![CDATA[El Log In ha sido exitoso.]]>
+    </line>
+    <line>
+      <![CDATA[Abrimos la página web www.demoblaze.com]]>
+    </line>
+    <line>
+      <![CDATA[Seleccionamos Log In]]>
+    </line>
+    <line>
+      <![CDATA[Hemos clickeado en la opción Log In.]]>
+    </line>
+    <line>
+      <![CDATA[Llenamos el campo de usuario con: oteroflorencia05]]>
+    </line>
+    <line>
+      <![CDATA[Llenamos el campo de contraseña.]]>
+    </line>
+    <line>
+      <![CDATA[Hacemos clic en el botón de Log In.]]>
+    </line>
+    <line>
+      <![CDATA[El Log In ha sido exitoso.]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-10-03T20:52:36 ART" name="Suite" finished-at="2024-10-03T20:52:59 ART" duration-ms="23580">
+    <groups>
+    </groups>
+    <test started-at="2024-10-03T20:52:36 ART" name="Test" finished-at="2024-10-03T20:52:59 ART" duration-ms="23580">
+      <class name="com.selenium.test.DemoTest">
+        <test-method is-config="true" signature="precondiciones(org.testng.ITestContext)[pri:0, instance:com.selenium.test.DemoTest@7586beff]" started-at="2024-10-03T20:52:36 ART" name="precondiciones" finished-at="2024-10-03T20:52:39 ART" duration-ms="2937" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5eeedb60]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondiciones -->
+        <test-method signature="ValidarAdicionCarrito()[pri:0, instance:com.selenium.test.DemoTest@7586beff]" started-at="2024-10-03T20:52:39 ART" name="ValidarAdicionCarrito" description="Validar que las adiciones al carrito en DemoBlaze funcionan" finished-at="2024-10-03T20:52:45 ART" duration-ms="6617" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Abrimos la página web www.demoblaze.com]]>
+            </line>
+            <line>
+              <![CDATA[Entramos a la categoría Phones]]>
+            </line>
+            <line>
+              <![CDATA[Hemos clickeado en la categoría Phones.]]>
+            </line>
+            <line>
+              <![CDATA[Hemos clickeado en el producto Samsung Galaxy S6.]]>
+            </line>
+            <line>
+              <![CDATA[Hemos clickeado en el botón 'Agregar al carrito'.]]>
+            </line>
+            <line>
+              <![CDATA[Se ha aceptado el alert de confirmación.]]>
+            </line>
+            <line>
+              <![CDATA[Hemos clickeado en el carrito para verificar los productos.]]>
+            </line>
+            <line>
+              <![CDATA[El contenido del carrito es visible.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidarAdicionCarrito -->
+        <test-method is-config="true" signature="postcondiciones()[pri:0, instance:com.selenium.test.DemoTest@7586beff]" started-at="2024-10-03T20:52:45 ART" name="postcondiciones" finished-at="2024-10-03T20:52:46 ART" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondiciones -->
+        <test-method is-config="true" signature="precondiciones(org.testng.ITestContext)[pri:0, instance:com.selenium.test.DemoTest@7586beff]" started-at="2024-10-03T20:52:46 ART" name="precondiciones" finished-at="2024-10-03T20:52:48 ART" duration-ms="2233" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5eeedb60]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondiciones -->
+        <test-method signature="ValidarLogIn(java.lang.String,java.lang.String)[pri:0, instance:com.selenium.test.DemoTest@7586beff]" started-at="2024-10-03T20:52:48 ART" name="ValidarLogIn" description="Validar Log In" data-provider="datos-logIn" finished-at="2024-10-03T20:52:52 ART" duration-ms="4337" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[florencia-otero1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Abrimos la página web www.demoblaze.com]]>
+            </line>
+            <line>
+              <![CDATA[Seleccionamos Log In]]>
+            </line>
+            <line>
+              <![CDATA[Hemos clickeado en la opción Log In.]]>
+            </line>
+            <line>
+              <![CDATA[Llenamos el campo de usuario con: florencia-otero1]]>
+            </line>
+            <line>
+              <![CDATA[Llenamos el campo de contraseña.]]>
+            </line>
+            <line>
+              <![CDATA[Hacemos clic en el botón de Log In.]]>
+            </line>
+            <line>
+              <![CDATA[El Log In ha sido exitoso.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidarLogIn -->
+        <test-method is-config="true" signature="postcondiciones()[pri:0, instance:com.selenium.test.DemoTest@7586beff]" started-at="2024-10-03T20:52:52 ART" name="postcondiciones" finished-at="2024-10-03T20:52:52 ART" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondiciones -->
+        <test-method is-config="true" signature="precondiciones(org.testng.ITestContext)[pri:0, instance:com.selenium.test.DemoTest@7586beff]" started-at="2024-10-03T20:52:52 ART" name="precondiciones" finished-at="2024-10-03T20:52:55 ART" duration-ms="2371" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5eeedb60]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondiciones -->
+        <test-method signature="ValidarLogIn(java.lang.String,java.lang.String)[pri:0, instance:com.selenium.test.DemoTest@7586beff]" started-at="2024-10-03T20:52:55 ART" name="ValidarLogIn" description="Validar Log In" data-provider="datos-logIn" finished-at="2024-10-03T20:52:59 ART" duration-ms="4392" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[oteroflorencia05]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Abrimos la página web www.demoblaze.com]]>
+            </line>
+            <line>
+              <![CDATA[Seleccionamos Log In]]>
+            </line>
+            <line>
+              <![CDATA[Hemos clickeado en la opción Log In.]]>
+            </line>
+            <line>
+              <![CDATA[Llenamos el campo de usuario con: oteroflorencia05]]>
+            </line>
+            <line>
+              <![CDATA[Llenamos el campo de contraseña.]]>
+            </line>
+            <line>
+              <![CDATA[Hacemos clic en el botón de Log In.]]>
+            </line>
+            <line>
+              <![CDATA[El Log In ha sido exitoso.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidarLogIn -->
+        <test-method is-config="true" signature="postcondiciones()[pri:0, instance:com.selenium.test.DemoTest@7586beff]" started-at="2024-10-03T20:52:59 ART" name="postcondiciones" finished-at="2024-10-03T20:52:59 ART" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondiciones -->
+      </class> <!-- com.selenium.test.DemoTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
